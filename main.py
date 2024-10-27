@@ -8,7 +8,7 @@ try: app_id = int(os.environ.get("app_id", "24894984"))
 except Exception as app_id: print(f"⚠️ App ID Invalid {app_id}")
 try: api_hash = os.environ.get("api_hash", "4956e23833905463efb588eb806f9804")
 except Exception as api_id: print(f"⚠️ Api Hash Invalid {api_hash}")
-try: bot_token = os.environ.get("bot_token", "7328135476:AAEapfWhc4yo0jsQX_LD5cMByF3i4exUtQ0")
+try: bot_token = os.environ.get("bot_token", "8165614527:AAG3XwFMG643O_hRumXwGKwq1IIetGAPJzU")
 except Exception as bot_token: print(f"⚠️ Bot Token Invalid {bot_token}")
 try: custom_caption = os.environ.get("custom_caption", "`{file_name}`join @targetallcourse")
 except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custom_caption}")
@@ -17,10 +17,10 @@ AutoCaptionBotV1 = pyrogram.Client(
    name="AutoCaptionBotV1", api_id=app_id, api_hash=api_hash, bot_token=bot_token)
 
 start_message = """
-<b>👋Hello {}</b>
+<b>👋Hello dear {}</b>
 <b>I am an AutoCaption bot</b>
 <b>All you have to do is add me to your channel and I will show you my power</b>
-<b>@VJ_Botz</b>"""
+<b>@targetallcourse</b>"""
 
 about_message = """
 <b>• Name : <a href=https://t.me/Targetallcourse>VJ AutoCaption</a></b>

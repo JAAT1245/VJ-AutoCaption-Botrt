@@ -1,5 +1,5 @@
 {
-    "name": "VJ-AutoCaption-Bot",
+    "name": "CR-AutoCaption-Bot",
     "description": "Auto Caption BoT V1 @KingVJ01",
     "logo": "https://graph.org/file/a3a93ffb7283578499cce.jpg",
     "keywords": [
@@ -8,9 +8,9 @@
         "Caption",
         "Bot"
     ],
-    "website": "https://youtube.com/@Tech_VJ",
+    "website": "https://youtube.com",
     "repository": "https://github.com/VJBots/VJ-AutoCaption-Bot",
-    "success_url": "https://youtube.com/@Tech_VJ",
+    "success_url": "https://youtube.com",
     "env": {
         "app_id": {
             "description": "Your APP ID From my.telegram.org",
